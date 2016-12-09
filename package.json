@@ -4,6 +4,7 @@
   "description": "NCTU softdev final",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --output-pathinfo --debug",
     "dev": "webpack-dev-server --progress --colors --devtool eval --hot --inline --output-public-path=/src/build/"
